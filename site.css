@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    color:#333;
+    widows: 3; orphans: 3;
+  }
+
+  a {
+    color: #006699;
+  }
+
+  h1, h2, h3, h4 { font-weight: normal; widows: 2; orphans: 2; }
+  
+  h1{ margin: 40px 0  40px 0; }
+
+  #content { 
+    max-width: 800px;
+  }  
+
+  #logo {
+    border: 1px solid #abe5ef;
+    display: inline;
+    font-size: 24px;
+    background: #abe5ef;
+    color:  #fff;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+  } 
+
+  #avatar {
+    position: relative; 
+    top: 19px;
+    display: none
+  }
+
+  #profile {
+    float: right; 
+    width: 350px; 
+    height: 350px; 
+    background-image: url(michael-curry-pushhandle.jpg); 
+    background-size: 350px; 
+    margin-bottom: 20px;
+  }
+
+  body #hero {
+    padding: 10px 60px;
+  }
+
+  body.home #hero {
+    background-size: cover;
+    background-position: center center;
+    max-width: 860px;
+  }
+
+  #letter { 
+    max-width: 550px;
+    margin: 50px 0;
+    padding: 60px 60px 100px 60px;
+    font-family: 'EB Garamond', serif;
+    widows: 2; orphans: 2;
+  }
+  
+  #footer {
+    margin-top: 50px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+@media only screen and (max-device-width: 480px) {
+ 
+    body { margin: 0; font-size : 21px }   
+    body.home { font-size : 28px }    
+
+    body #hero {
+      padding: 10px 20px;
+      min-width: 0;
+    }
+
+    body.home #profile {
+      top: -20px;
+      position: relative;
+      z-index: -1;
+    }
+
+    body.home #letter { 
+      max-width: 550px;
+      margin: 20px 0;
+      padding: 1px 20px 60px 20px;
+      font-family: 'EB Garamond', serif;
+    }
+
+    h1 { margin: 40px 0; } 
+
+    #footer {
+      padding-bottom: 20px;
+    }
+
+}
+
+@media print {
+
+  @page {
+    margin: 3.0cm 2.0cm;
+  }
+
+  body {margin: 150px 0; font-family: 'EB Garamond', serif; }
+  h1 { font-weight: bold; font-family: 'Montserrat', sans-serif; margin:150px 0 200px 0; }
+  h2, h3, h4, h5 { font-weight: 100 !important; }
+  img#avatar, #logo { display: none !important; }
+  #footer { margin-top: 100px; }
+
+}
