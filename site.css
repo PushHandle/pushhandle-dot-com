@@ -62,6 +62,10 @@ body {
     font-family: 'EB Garamond', serif;
     widows: 2; orphans: 2;
   }
+
+ .blob {
+     font-size: 18px;
+}
   
   #footer {
     margin-top: 50px;
