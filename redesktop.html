@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+   <body>
+      <script>
+var anchor = window.location;
+var queryString = anchor.search; // Returns:'?url=pushhandle.com'
+var params = new URLSearchParams(queryString);
+var q = parseInt(params.get("url=")); // Returns: 'pushhandle.com'
+
+         setTimeout(function(){
+            window.location.href = q;
+         }, 5000);
+      </script>
+      <p>Web page redirects after 5 seconds.</p>
+   </body>
+</html>
