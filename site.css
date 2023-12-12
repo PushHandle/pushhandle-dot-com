@@ -37,12 +37,10 @@ body {
   }
 
   #profile {
-    float: right; 
-    width: 350px; 
-    height: 350px; 
-    background-image: url(images/me-again.jpg); 
-    background-size: 350px; 
-    margin-bottom: 20px;
+    height: 180px;
+    background-image: url(images/hereIam.png); 
+    background-size: 550px; 
+    background-repeat: no-repeat;
   }
 
   body #hero {
