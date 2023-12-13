@@ -91,7 +91,7 @@ body {
     body.home #letter { 
       max-width: 550px;
       margin: 20px 0;
-      padding: 1px 20px 60px 20px;
+      padding: 0px 10px;
       font-family: 'EB Garamond', serif;
     }
 
