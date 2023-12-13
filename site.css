@@ -41,6 +41,7 @@ body {
     background-image: url(images/hereIam.png); 
     background-size: 550px; 
     background-repeat: no-repeat;
+    margin-top: 50px;
   }
 
   body #hero {
